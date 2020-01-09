@@ -27,7 +27,23 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.img {
-  min-height: 100px;
-  min-width: 100px;
+/* .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+} */
+
+.carousel-item.img {
+  vertical-align: middle;
+  border-style: none;
+  /* height: 50vh; */
+  width: 100%;
+  background-size: cover;
 }
+
+/* #myCarousel {
+  width: 100%;
+  height: 20vh;
+} */
