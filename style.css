@@ -12,3 +12,22 @@
   min-height: 300vh;
   background-image: url("assets/images/DispensaryLeaf.jpg");
 } */
+
+.carousel-content {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  color: magenta;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.img {
+  min-height: 100px;
+  min-width: 100px;
+}
