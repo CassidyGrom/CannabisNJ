@@ -1,11 +1,19 @@
 h1 {
   font-family: "Staatliches", cursive;
   font-size: 15rem;
+  line-height: 10rem;
 }
 
 h1::first-line {
   font-family: "Staatliches", cursive;
   font-size: 8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 2rem;
+  padding-right: 4rem;
 }
 /* .carousel-1 {
   min-height: 300vh;
@@ -63,4 +71,15 @@ h1::first-line {
 
 /* .img {
   object-fit: contain;
+} */
+
+.btn-weed {
+  background-color: none;
+  border: solid #5da93b;
+  color: white;
+  margin-top: 5rem;
+}
+
+/* .glyphicon {
+  font-size: 80px;
 } */
