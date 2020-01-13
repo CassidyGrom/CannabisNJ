@@ -19,6 +19,14 @@ h4 {
   font-size: 2rem;
   padding-right: 4rem;
 }
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 auto;
+}
 /* .carousel-1 {
   min-height: 300vh;
   background-image: url("assets/images/MedicalBig1.jpg");
