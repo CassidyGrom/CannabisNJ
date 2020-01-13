@@ -1,3 +1,11 @@
+h1,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "Staatliches", cursive;
   font-size: 15rem;
@@ -18,19 +26,13 @@ h2 {
 h3 {
   font-family: "Staatliches", cursive;
   font-size: 1.5rem;
+  padding-top: 1.5rem;
 }
 h4 {
   font-size: 2rem;
   padding-right: 4rem;
 }
 
-h1,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 auto;
-}
 /* .carousel-1 {
   min-height: 300vh;
   background-image: url("assets/images/MedicalBig1.jpg");
@@ -114,6 +116,12 @@ h6 {
 
 .subscription {
   padding-top: 2vh;
+}
+
+.card-img-top {
+  height: 50%;
+  width: 60%;
+  margin: 1.5vh auto 0;
 }
 
 /* .glyphicon {
