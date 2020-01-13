@@ -10,7 +10,11 @@ h1::first-line {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
 h4 {
   font-size: 2rem;
   padding-right: 4rem;
@@ -78,6 +82,22 @@ h4 {
   border: solid #5da93b;
   color: white;
   margin-top: 5rem;
+}
+
+.featurette-image {
+  border-radius: 7%;
+  margin-bottom: 3vh;
+}
+
+.featurette {
+  background-color: #5da93b;
+  color: white;
+  min-height: 20vh;
+}
+
+.leadin {
+  font-size: 1.5rem;
+  font-style: bold;
 }
 
 /* .glyphicon {
