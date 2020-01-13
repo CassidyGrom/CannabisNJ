@@ -1,3 +1,12 @@
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 15rem;
+}
+
+h1::first-line {
+  font-family: "Staatliches", cursive;
+  font-size: 8rem;
+}
 /* .carousel-1 {
   min-height: 300vh;
   background-image: url("assets/images/MedicalBig1.jpg");
