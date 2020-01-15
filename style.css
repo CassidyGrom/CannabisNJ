@@ -73,6 +73,11 @@ h4 {
   height: 32rem;
 } */
 
+.image-overlay {
+  background-color: magenta;
+  min-height: 400px;
+}
+
 .carousel-item {
   min-height: 400px;
 }
@@ -100,6 +105,17 @@ h4 {
   border: solid #5da93b;
   color: white;
   margin-top: 5rem;
+}
+
+.btn-weed:hover {
+  background-color: #5da93b;
+  color: white;
+}
+
+.btn-weed:visited {
+  background-color: #5da93b;
+  color: white;
+  border: solid #5da93b;
 }
 
 .featurette-image {
