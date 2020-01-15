@@ -471,7 +471,55 @@
         <h2>Subscribe Now</h2>
       </div>
     </div>
+    <!-- LETS SEE WHAT HAPPENS -->
+    <div id="signup" class="main">
+    <div ng-init="radioTermSelected = {termId: terms[1]}"></div>
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class= "text-center mainhed">
+                <strong>[%% Headline %%]</strong> 
+            </h2> 
+            <h5 class= "introitems">
+                <p>&#8226;&nbsp;Read exclusive, premium content</p><p>&#8226;&nbsp;Connect with industry experts</p><p>&#8226;&nbsp;Stay ahead of your competition</p><p>&#8226;&nbsp;Make smart financial decisions</p>
+            </h5>
+        </div>
+    </div>
 
+
+    <div class="signup--offers container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 offer-card-container" ng-repeat="term in terms">
+                <div class="offer-card text-center" id="offer-card-{{$index}}">
+                    <div class="offer-callout"> </div>
+                    <h3 class="term-description">{{term.name.split('_')[2]}}</h3>
+                    <p class="term-price"><span>{{term.firstRealPrice.split('.')[0]}}</span><br/><span>Billed every {{ (term.billingPlanTable[0].period=='semiannual')? 'six months' : term.billingPlanTable[0].period }}</span></p>
+                    <div class="fixed-button text-center">
+                        <a ng-click="startCheckout(term.termId)" class="button start-new-checkout big">
+                        <span ng-show="isPayableTerm(term)">
+                            <span class="price">
+                                Subscribe
+                            </span>
+                        </span>
+                        </a>
+                    </div>
+                    <ul class="value-points">
+                        <li class="value-points-true" ng-repeat="desp in term.description.split(' || ')[0].split(', ')"> <span>✓️</span>{{desp}} </li>
+                        <li class="value-points-false" ng-repeat="desp in term.description.split(' || ')[1].split(', ')"> <span>✗️</span>{{desp}} </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="group-row">
+            <p>
+             Interested in a group or corporate rate? <a href="https://njcannabisinsider.nj.com/group-rate/index.html" target="_blank">Contact us directly.</a>
+             </p>
+        </div>
+        <div class="login-bar row" ng-if="!isUserValid()" external-event="login">
+            <p >Already a subscriber?</p>
+            <a class="login-btn"> Login </a>
+        </div>
+    </div>
+</div>
     <!-- My JS -->
     <script src="script.js"></script>
     <!-- jQuery CDN -->
