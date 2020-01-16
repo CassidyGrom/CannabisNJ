@@ -127,11 +127,22 @@ h4 {
 }
 
 
-.sticky {
+/* .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 40rem;
+  top: 0;
   padding-left: 90%;
+  width: 30px;
+} */
+
+.sticky {
+  padding-left: 90%;
+  position: fixed;
+  padding: 20px;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: white;
 }
 
 .featurette-image {
