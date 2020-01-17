@@ -89,6 +89,19 @@ body {
   min-height: 400px;
 }
 
+.full {
+  min-height: 400px;
+}
+
+.fill.img {
+  vertical-align: middle;
+  border-style: none;
+  /* height: 50vh; */
+  width: 100%;
+  background-size: cover;
+  min-height: 400px;
+}
+
 
 .btn-weed {
   background-color: none;
