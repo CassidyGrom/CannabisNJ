@@ -108,12 +108,9 @@ body {
   border: solid #5da93b;
 }
 
-.big-sticky-container {
-  /* display: flex;
-  display: -webkit-sticky;
-  justify-content: space-around; */
-  align-items: flex-start;
-  background-color: magenta;
+
+.whatSection {
+  background-color: #595959;
 }
 
 
