@@ -7,7 +7,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
