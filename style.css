@@ -40,16 +40,23 @@ body {
   margin: 0;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #5da93b;
-  border-top: solid #5da93b 4px;
-  padding-top: 52px;
+.navbar {
+  height: 75px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding-top: 56px;
+  padding-top: 40px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  padding-top: 35px;
+  color: #5da93b;
+  border-top: solid #5da93b 5px;
+}
+
+.rounded-circle {
+  border: white 4px solid;
+}
 
 .carousel-content {
   position: relative;
