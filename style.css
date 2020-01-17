@@ -36,20 +36,9 @@ h4 {
   padding-right: 4rem;
 }
 
-/* .carousel-1 {
-  min-height: 300vh;
-  background-image: url("assets/images/MedicalBig1.jpg");
-} */
-
-/* .carousel-2 {
-  min-height: 300vh;
-  background-image: url("assets/images/darkerWeedGrid.jpg");
+body {
+  margin: 0;
 }
-
-.carousel-3 {
-  min-height: 300vh;
-  background-image: url("assets/images/DispensaryLeaf.jpg");
-} */
 
 .carousel-content {
   position: relative;
@@ -91,14 +80,6 @@ h4 {
   min-height: 400px;
 }
 
-/* #myCarousel {
-  width: 100%;
-  height: 20vh;
-} */
-
-/* .img {
-  object-fit: contain;
-} */
 
 .btn-weed {
   background-color: none;
@@ -127,22 +108,27 @@ h4 {
 }
 
 
-/* .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding-left: 90%;
-  width: 30px;
-} */
-
-.sticky {
+/* #sticky {
   padding-left: 90%;
   position: fixed;
-  padding: 20px;
-  bottom: 20px;
+  top: 90vh;
   right: 20px;
-  background-color: blue;
   color: white;
+} */
+
+#sticky {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  /* padding: 15px; */
+  border-radius: 4px;
 }
 
 .featurette-image {
@@ -190,257 +176,3 @@ btn.moreList {
   display: block;
   /* Make the buttons appear below each other */
 }
-
-/* #signup {
-  width: 100%;
-  margin: 0px;
-  overflow-x: hidden;
-  font-family: 'helvetica', Arial, sans-serif;
-}
-
-.mainhed {
-  padding: 2rem 0px;
-}
-
-.introitems {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 310px;
-}
-
-.jumbotron {
-  background-image: url('https://njcannabisinsider.nj.com/static/images/BG-1.jpg');
-  background-size: cover;
-  background-position: 50% 50%;
-  color: white;
-  border-radius: 0px;
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-.offer-card-container {
-  margin-bottom: 1.5rem;
-}
-
-.offer-card {
-  box-shadow: 0px 0px 1px black;
-  border-radius: 5px;
-  padding-bottom: 0.5rem;
-  font-family: 'helvetica', Arial, sans-serif;
-}
-
-#offer-card-0::after,
-#offer-card-1::after {
-  /*content: url(https://nj-apps.s3.amazonaws.com/2019/07/bestValue.png);*/
-font-weight: 900;
-transform: rotateZ(-45deg);
-position: absolute;
-top: 1rem;
-left: 0rem;
-background-color: rgba(243, 233, 164, 0.8);
-color: #5cb85c;
-padding: 0rem 0.5rem;
-font-size: 1.2rem;
-}
-
-#offer-card-0::after {
-  content: 'Save $120';
-}
-
-#offer-card-1::after {
-  content: 'Save $70';
-}
-
-.row::after,
-.row::before {
-  display: inline-block
-}
-
-.signup--offers .row {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.group-row {
-  text-align: center;
-}
-
-.term-description {
-  text-align: center;
-}
-
-.login-bar {
-  margin: 2rem auto 0.5rem auto;
-  justify-content: flex-end;
-}
-
-.login-bar>p {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0px;
-}
-
-.login-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.value-points {
-  text-align: left;
-  padding: 0rem 0.2rem 0rem 0.8rem;
-  /*padding-inline-start: 20px;*/
-}
-
-.value-points li {
-  list-style-type: none;
-  font-size: 0.9rem;
-  color: #333;
-}
-
-
-
-
-li.value-points-false {
-  color: #bcbcbc;
-}
-
-.value-points li span {
-  padding-right: 5px;
-  font-size: 1.3rem
-}
-
-.term-description {
-  margin: 1rem auto;
-}
-
-.signup--offers {
-  margin-bottom: 6rem;
-}
-
-.term-price {
-  line-height: 2rem;
-}
-
-.term-price span:first-child {
-  font-size: 2.5rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #5cb85c;
-  font-weight: 900;
-}
-
-.offer-callout {
-  width: 100%;
-  height: 2.5rem;
-  font-size: 1rem;
-}
-
-*/
-/*.offer-card-container .offer-callout{*/
-/*    width: 0;*/
-/*    height: 0;*/
-/*    border-style: solid;*/
-/*    border-width: 90px 100px 0 100px;*/
-/*    border-color: #5cb85c transparent transparent transparent;*/
-/*    color: black;*/
-/*    margin: auto;*/
-/*}*/
-/* .offer-card-container:nth-child(1) .offer-callout {
-  width: 100%;
-  margin: auto;
-  background-color: #5cb85c;
-  color: white;
-  border-radius: 5px 5px 0px 0px;
-  padding-top: 0.5rem;
-}
-
-.offer-card-container .offer-callout::after {
-  content: 'BEST VALUE';
-  padding: 5px 10px;
-  font-weight: bold;
-  position: absolute;
-  top: 0px;
-  left: 25%;
-  width: 50%;
-  max-width: 20rem;
-  color: white;
-  text-align: center;
-  text-shadow: 0px 0px 2px #0a540a;
-  line-height: 2;
-}
-
-.offer-card-container:nth-child(3) .offer-callout::after {
-  content: '';
-}
-
-.offer-card-container:nth-child(2) .offer-callout::after {
-  content: '';
-}
-
-.value-points-true span {
-  color: #5cb85c;
-}
-
-.value-points-false span {
-  color: #f00;
-}
-
-a.button.start-new-checkout {
-  border: 2px solid #5da93b;
-  background-color: #fff;
-  color: #5da93b;
-  line-height: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 1rem;
-  margin-right: 0px;
-}
-
-.offer-card-container:first-child a.button.start-new-checkout {
-  background-color: #5da93b;
-  color: white;
-}
-
-.offer-card-container:first-child a.button.start-new-checkout:hover {
-  background-color: #79c557;
-  color: white;
-}
-
-a.button.start-new-checkout:hover {
-  background-color: #79c557;
-  color: white;
-}
-
-@media only screen and (min-width: 700px) {
-  .value-points li {
-    padding-left: 1.2rem;
-  }
-
-  .offer-card-container .offer-callout::after {
-    left: 20%;
-    width: 60%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .value-points li {
-    padding-left: 1.2rem;
-  }
-
-  .offer-card-container .offer-callout::after {
-    left: 30%;
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width: 560px) and (max-width: 900px) {
-
-  #offer-card-0::after,
-  #offer-card-1::after {
-    font-weight: 900;
-    transform: rotateZ(-45deg);
-    position: absolute;
-    top: 1rem;
-    left: -1rem;
-  }
-} */
