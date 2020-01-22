@@ -123,6 +123,14 @@ body {
   padding-bottom: 20px; */
 }
 
+.teamCard {
+  position: absolute;
+  top: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
 /* .teamTextTitle {
   position: absolute;
   right: 15%;
@@ -236,4 +244,28 @@ btn.moreList {
   /* Set a width if needed */
   display: block;
   /* Make the buttons appear below each other */
+}
+
+/* MOBILE*/
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-family: "Staatliches", cursive;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin-top: 0;
+  }
+
+  h1::first-line {
+    font-family: "Staatliches", cursive;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: "Staatliches", cursive;
+    font-size: 1.5rem;
+
+    margin-top: 0;
+  }
 }
