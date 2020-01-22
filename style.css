@@ -1,3 +1,7 @@
+p {
+  line-height: 140%;
+}
+
 h1,
 h3,
 h4,
@@ -129,7 +133,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
   border-left: white solid 3px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   color: white;
 }
 
@@ -216,6 +220,10 @@ body {
   padding-top: 2vh;
 }
 
+.card-body {
+  padding: 0px;
+}
+
 .card-img-top {
   height: 50%;
   width: 60%;
@@ -270,11 +278,16 @@ btn.moreList {
 
     margin-top: 0;
   }
+
+  .container-team {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
   .teamCard {
-    margin-top: 45vh;
+    position: absolute;
+    top: 25vh;
   }
 
 }
