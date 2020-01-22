@@ -26,7 +26,7 @@ h1::first-line {
 h2 {
   font-family: "Staatliches", cursive;
   font-size: 3rem;
-  margin-top: 2rem;
+  line-height: 100%;
 }
 
 h3 {
@@ -147,7 +147,6 @@ body {
   padding-bottom: 20px;
 } */
 
-
 .btn-weed {
   background-color: none;
   border: solid #5da93b;
@@ -166,15 +165,13 @@ body {
   border: solid #5da93b;
 }
 
-
 .whatSection {
   background-color: #595959;
 }
 
 .btn-secondary {
-  line-height: .9rem;
+  line-height: 0.9rem;
 }
-
 
 /* #sticky {
   padding-left: 90%;
@@ -222,6 +219,10 @@ body {
 
 .card-body {
   padding: 0px;
+}
+
+.mobile-card-content {
+  padding: 2rem;
 }
 
 .card-img-top {
@@ -284,10 +285,15 @@ btn.moreList {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  .mobile-team {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .teamCard {
     position: absolute;
-    top: 25vh;
+    top: 15vh;
   }
-
 }
