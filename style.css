@@ -198,7 +198,8 @@ body {
 }
 
 .featurette {
-  background-color: #5da93b;
+  /* background-color: #5da93b; */
+  background-color: #44592e;
   color: white;
   min-height: 20vh;
 }
