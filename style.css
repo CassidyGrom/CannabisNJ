@@ -293,6 +293,11 @@ btn.moreList {
   border: white solid 4px;
 }
 
+/** logo-container**/
+.logo-container{
+  background-color: purple;
+}
+
 /* MOBILE and tablet*/
 @media only screen and (max-width: 900px) {
   h1 {
