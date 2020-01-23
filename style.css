@@ -80,10 +80,6 @@ body {
   background-color: #fefefe;
 }
 
-.carousel-item {
-  /* min-height: 400px; */
-}
-
 .carousel-item.img {
   vertical-align: middle;
   border-style: none;
@@ -212,7 +208,15 @@ body {
   line-height: 1.7rem;
   font-style: bold;
 }
+/**Who subscribes**/
+.RecCard {
+  background-color: rgba(0, 0, 0, 0);
+  border: white solid 3px;
+}
 
+.card-img-top {
+  background-color: white;
+}
 .subscription {
   padding-top: 2vh;
 }
@@ -222,7 +226,10 @@ body {
 }
 
 .mobile-card-content {
-  padding: 2rem;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: white;
+  background-color: #585858;
 }
 
 .card-img-top {
