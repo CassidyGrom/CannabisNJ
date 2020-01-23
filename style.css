@@ -278,6 +278,21 @@ btn.moreList {
   /* Make the buttons appear below each other */
 }
 
+/* Mobile card**/
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.rounded-circle-mobile {
+  border-radius: 50% !important;
+  width: 30vw;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  border: white solid 4px;
+}
+
 /* MOBILE and tablet*/
 @media only screen and (max-width: 900px) {
   h1 {
@@ -304,17 +319,35 @@ btn.moreList {
   .container-team {
     display: none;
   }
+
+  .desktopWhoSubscribes {
+    display: none;
+  }
+
 }
 
+@media only screen and (max-width: 1200px) {
+  .desktopWhoSubscribes {
+    display: none;
+  }
+
+}
+
+/**bigger then mobile and tablet**/
 @media only screen and (min-width: 900px) {
   .mobile-team {
     display: none;
   }
 }
 
+/** super large screen **/
 @media only screen and (min-width: 1200px) {
   .teamCard {
     position: absolute;
     top: 15vh;
+  }
+
+  .mobileWhoSubscribes {
+    display: none;
   }
 }
