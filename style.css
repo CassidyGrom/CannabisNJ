@@ -44,6 +44,21 @@ body {
   margin: 0;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  /* position: fixed;
+  bottom: 0; */
+  padding-left: 1rem;
+  padding-top: 10px;
+  width: 100%;
+
+}
+
+footer a {
+  color: white;
+}
+
 .navbar {
   height: 75px;
 }
