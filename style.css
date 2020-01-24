@@ -218,15 +218,15 @@ footer a {
   line-height: 0.9rem;
 }
 
-/* #sticky {
+#sticky {
   padding-left: 90%;
   position: fixed;
   top: 90vh;
   right: 20px;
   color: white;
-} */
+}
 
-#sticky {
+/* #sticky {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -238,10 +238,10 @@ footer a {
   color: white;
   cursor: pointer;
   /* padding: 15px; */
-  border-radius: 4px;
+border-radius: 4px;
 }
 
-.featurette-image {
+*/ .featurette-image {
   border-radius: 7%;
   margin-bottom: 3vh;
 }
