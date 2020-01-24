@@ -42,7 +42,7 @@ h1::first-line {
 
 h2 {
   font-family: "Staatliches", cursive;
-  font-size: 4rem;
+  font-size: 3.6rem;
   line-height: 100%;
 }
 
@@ -54,7 +54,7 @@ h3 {
 
 h4 {
   font-size: 2rem;
-  padding-right: 4rem;
+  padding-right: 2rem;
 }
 
 /* body {
@@ -103,8 +103,8 @@ footer a {
 
 .navbar-light .navbar-nav .nav-link:hover {
   padding-top: 35px;
-  color: #5da93b;
-  border-top: solid #5da93b 5px;
+  color: #44592e;
+  border-top: solid #44592e 5px;
 }
 
 .rounded-circle {
@@ -194,20 +194,20 @@ footer a {
 
 .btn-weed {
   background-color: none;
-  border: solid #5da93b;
+  border: solid #44592e;
   color: white;
   margin-top: 5rem;
 }
 
 .btn-weed:hover {
-  background-color: #5da93b;
+  background-color: #44592e;
   color: white;
 }
 
 .btn-weed:visited {
-  background-color: #5da93b;
+  background-color: #44592e;
   color: white;
-  border: solid #5da93b;
+  border: solid #44592e;
 }
 
 .whatSection {
@@ -317,22 +317,24 @@ i {
 /* .glyphicon {
   font-size: 80px;
 } */
-btn.moreList {
+/* btn.moreList {
   background-color: #4caf50;
   /* Green background */
-  border: 1px solid green;
-  /* Green border */
-  color: white;
-  /* White text */
-  padding: 10px 24px;
-  /* Some padding */
-  cursor: pointer;
-  /* Pointer/hand icon */
-  width: 50%;
-  /* Set a width if needed */
-  display: block;
-  /* Make the buttons appear below each other */
+/* border: 1px solid green; */
+/* Green border */
+/* color: white; */
+/* White text */
+/* padding: 10px 24px; */
+/* Some padding */
+/* cursor: pointer; */
+/* Pointer/hand icon */
+/* width: 50%; */
+/* Set a width if needed */
+/* display: block; */
+/* Make the buttons appear below each other */
 }
+
+*/
 
 /* Mobile card**/
 .card-horizontal {
@@ -370,12 +372,12 @@ btn.moreList {
     margin-bottom: 0;
   }
 
-  h2 {
+  /* h2 {
     font-family: "Staatliches", cursive;
     font-size: 1.5rem;
 
     margin-top: 0;
-  }
+  } */
 
   .container-team {
     display: none;
