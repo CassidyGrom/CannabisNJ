@@ -1,6 +1,13 @@
 * {
   margin: 0 0;
   padding: 0 0;
+  border: red solid 1px;
+  box-sizing: content-box;
+}
+
+* ::after,
+::before {
+  box-sizing: content-box;
 }
 
 p {
@@ -50,9 +57,18 @@ h4 {
   padding-right: 4rem;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 footer {
@@ -63,11 +79,15 @@ footer {
   padding-left: 1rem;
   padding-top: 10px;
   width: 100%;
-
 }
 
 footer a {
   color: white;
+}
+
+.contianer,
+.container-fluid {
+  margin: 0 0;
 }
 
 .navbar {
