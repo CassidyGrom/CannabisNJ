@@ -1,5 +1,15 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
 p {
+  font-size: 1.3rem;
   line-height: 140%;
+}
+
+li {
+  font-size: 1.3rem;
 }
 
 h1,
@@ -25,13 +35,13 @@ h1::first-line {
 
 h2 {
   font-family: "Staatliches", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 100%;
 }
 
 h3 {
   font-family: "Staatliches", cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-top: 1.5rem;
 }
 
@@ -235,6 +245,11 @@ footer a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.card-text {
+  font-size: .8rem;
+}
+
 
 .cardTopBlock {
   height: 100%;
