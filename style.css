@@ -80,7 +80,7 @@ footer {
   /* padding-left: 1rem;
   padding-top: 10px;
   width: 100%; */
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   padding-top: 1rem;
 }
 
@@ -88,9 +88,28 @@ footer a {
   color: white;
 }
 
+/* Nav list item*/
+.nav-item{
+  font-size: .8rem;
+}
+
 .contianer,
 .container-fluid {
   margin: 0 0;
+}
+
+.TeamJan {
+  background-image: url("assets/images/PotentialBackground.JPG");
+  background-color: red;
+  /* Used if the image is unavailable */
+  height: 100%;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
 
 .navbar {
